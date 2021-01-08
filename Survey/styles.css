@@ -1,0 +1,43 @@
+body {
+    background: #d8f7d5;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#survey-form{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.4;
+    padding: 20px;
+}
+
+#name, #email, #number, select, #rating, textarea  {
+    display: block;
+        width: 100%;
+        padding: 0.75rem;
+        color: inherit;
+        border-radius: 2px;
+        cursor: pointer;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+#submit {
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        background: green;
+        color: inherit;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-top: 20px;
+}
